@@ -1,10 +1,11 @@
 import tkinter as tk
+import PIL
 from PIL import Image, ImageTk
 
 root = tk.Tk()
 
 # Load and resize image
-img = Image.open("Z:\Images")
+img = Image.open("z:\Images\safyuiasf.PNG")
 img = img.resize((100, 100))  # Resize if needed
 img_tk = ImageTk.PhotoImage(img)
 

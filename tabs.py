@@ -20,6 +20,7 @@ notebook.pack(expand=True, fill='both')
 tab1_content = create_tab_content(notebook, "Tab 1")
 notebook.add(tab1_content)
 
+
 tab2_content = create_tab_content(notebook, "Tab 2")
 notebook.add(tab2_content)
 
